@@ -28,6 +28,18 @@
     padding: 0;
 }
 
+.menu a {
+  text-decoration: none;
+  color: rgb(83, 82, 82);
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  color: #00bfff;
+}
+
+
+
 .language-selctor {
   display: flex;
   align-items: center;
@@ -45,4 +57,5 @@
 .arrow {
   font-size: 16px;
   color: white;
+
 }
